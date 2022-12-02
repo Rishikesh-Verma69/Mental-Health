@@ -1,0 +1,58 @@
+body {margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     background-image: url("sun.jpg") ;
+     font-style: verdana;
+     font-size: 200%;
+     }
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 21px 24px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+.topnav a:hover {
+      background-color: rgb(231, 212, 40);
+      color: rgb(82, 82, 82);
+    }
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    }
+table, th, td {
+    border-collapse: collapse;
+    width: 70%;
+}
+td, th{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: rgb(255, 157, 92);
+}
+tr:nth-child(odd){
+    background-color: blanchedalmond;
+}
+
+h1 {color: rgb(229, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+    border: dodgerblue;
+    border: 1ch;
+}
+h6 {
+    color: rgb(0, 0, 0);
+}
+a:link{
+    color:rgba(255, 255, 255, 0.815);
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover, a:active{
+    background-color: rgb(255, 136, 0);
+}
